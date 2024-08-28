@@ -6,6 +6,7 @@ body {
     margin: 0;
     padding: 0;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     height: 100vh;
@@ -16,12 +17,13 @@ body {
 
 #container {
     background-color: #fff;
-    padding: 50px;
+    padding: 20px;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     text-align: center;
     max-width: 400px;
     width: 100%;
+    margin-bottom: 20px;
 }
 
 
@@ -40,23 +42,8 @@ h2 {
 }
 
 #jc {
-    font-size: 24px;
+    font-size: 18px;
     color: #555;
-}
-
-
-/* Image Styles */
-
-#hell {
-    margin-bottom: 20px;
-    width: 100%;
-    max-width: 150px;
-    border-radius: 50%;
-    transition: transform 0.3s;
-}
-
-#hell:hover {
-    transform: scale(1.2);
 }
 
 
@@ -75,4 +62,44 @@ h2 {
 
 #jocklisten:hover {
     background-color: #0056b3;
+}
+
+
+/* Image Styles */
+
+#hell {
+    margin-top: 10px;
+    width: 100%;
+    max-width: 150px;
+    border-radius: 50%;
+}
+
+#hell:hover {
+    transform: scale(1.2);
+}
+
+
+/* Footer Styles */
+
+footer {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 14px;
+    color: #777;
+}
+
+footer a {
+    color: #007bff;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+footer a:hover {
+    color: #0056b3;
+}
+
+#logo {
+    margin-top: 10px;
+    max-width: 100px;
+    height: auto;
 }
